@@ -5,12 +5,14 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
+@CucumberOptions
+		(
+			//	features="/CucumberBDD-CRM/src/main/java/Features/login.feature",
 
-		features = "./src/main/java/Features/login.feature",
-		glue = { "stepDefinitions" }
-		// format = {"pretty","html:test-output"}
-)
+				features = "./src/main/java/Features/login.feature",
+				glue = {"stepDefinitions"},
+				plugin  = {"pretty", "html:test-output"}
+		)
 
 public class TestRunner
 {

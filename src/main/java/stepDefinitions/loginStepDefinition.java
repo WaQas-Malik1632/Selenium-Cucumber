@@ -38,7 +38,7 @@ public class loginStepDefinition
         driver.findElement(By.name("password")).sendKeys("Playwright@123");
     }
 
-    @Then("^User clicks on Login Button$")
+    @Then("^User clicks on LoginButton$")
     public void user_clicks_on_Login_Button()
     {
         WebElement loginBtn=driver.findElement(By.xpath("//input[@value=\"Login\"]"));
