@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.747" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="10.348">
+<system-out><![CDATA[
+Given User is already on Login Page.........................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters username and Password......................................passed
+Then User clicks on LoginButton.............................................passed
+And User is on Home Page....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

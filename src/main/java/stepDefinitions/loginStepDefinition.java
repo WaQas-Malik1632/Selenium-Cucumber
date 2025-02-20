@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class loginStepDefinition
 {
-
     public WebDriver driver;
 
     @Given("^User is already on Login Page$")
