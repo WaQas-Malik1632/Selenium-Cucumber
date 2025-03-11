@@ -1,2 +1,6 @@
-E:\Selenium-Cucumber\src\main\java\Runner\TestRunner.java
-E:\Selenium-Cucumber\src\main\java\stepDefinitions\loginStepDefinition.java
+D:\Selenium-Cucumber\src\main\java\com\qa\pages\HomePage.java
+D:\Selenium-Cucumber\src\main\java\com\qa\pages\LoginPage.java
+D:\Selenium-Cucumber\src\main\java\com\qa\runner\TestRunner.java
+D:\Selenium-Cucumber\src\main\java\com\qa\stepDefinitions\loginStepDefinition.java
+D:\Selenium-Cucumber\src\main\java\com\qa\stepDefinitions\SubscribeNewsletter.java
+D:\Selenium-Cucumber\src\main\java\com\qa\util\TestBase.java

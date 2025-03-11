@@ -1,2 +1,6 @@
-Runner\TestRunner.class
-stepDefinitions\loginStepDefinition.class
+com\qa\pages\LoginPage.class
+com\qa\stepDefinitions\loginStepDefinition.class
+com\qa\util\TestBase.class
+com\qa\runner\TestRunner.class
+com\qa\pages\HomePage.class
+com\qa\stepDefinitions\SubscribeNewsletter.class

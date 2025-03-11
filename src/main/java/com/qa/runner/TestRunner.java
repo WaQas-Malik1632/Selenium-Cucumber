@@ -1,19 +1,18 @@
-package Runner;
+package com.qa.runner;
+
+import org.junit.runner.RunWith;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
-import org.openqa.selenium.json.Json;
 
 @RunWith(Cucumber.class)
 @CucumberOptions
 		(
-			//	features="/CucumberBDD-CRM/src/main/java/Features/login.feature",
-				features = "./src/main/java/Features/login.feature",
-				glue = {"stepDefinitions"},
+				features = "./src/main/java/com/qa/features/NewsletterSubscribe.feature",
+				glue = {"com/qa/stepDefinitions"},
 				plugin  = {"pretty", "html:test-output","json:json_output/cucumber.json","junit:junitOutput_xml/cucumber.xml" }, //to generate different types of reports like
-			//	strict = true, // when step definition is missing for any step TO Do implement
-				monochrome = true, //it defines proper readable format
+			//	strict = true, // when step definition is missing for any step TODo implement
+				monochrome = true, //it defines console output proper readable format
 				dryRun = false
 			//	tags= {"~@Smoke","~@Regression","~@EndToEnd"}
 

@@ -11,19 +11,18 @@
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
     <dependencies>
-        <!-- Latest Selenium -->
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.22.0</version>
         </dependency>
-        <!-- Latest WebDriverManager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.8.0</version>
         </dependency>
-        <!-- Latest Cucumber Dependencies -->
+
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
