@@ -1,29 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="14.334" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="OpenCart Subscribe Newsletter" name="OpenCart Subscribe Newsletter Test Scenario - Example #1.1" time="7.477">
-<system-out><![CDATA[
-Given User is already on Login Page.........................................passed
-When Title of Login Page is Account Login...................................passed
-Then User enters "Testerqaw@youpmail.com" and "Playwright@123"..............passed
-Then User clicks on LoginButton.............................................passed
-Then User is on Home Page...................................................passed
-Then user clicks on Newsletter menu item....................................passed
-Then user selects the yes option............................................passed
-Then user clicks continue button............................................passed
-Then Verify success message.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="OpenCart Subscribe Newsletter" name="OpenCart Subscribe Newsletter Test Scenario - Example #1.2" time="6.739">
-<system-out><![CDATA[
-Given User is already on Login Page.........................................passed
-When Title of Login Page is Account Login...................................passed
-Then User enters "Tomtester@mailinator.com" and "Secret@123"................passed
-Then User clicks on LoginButton.............................................passed
-Then User is on Home Page...................................................passed
-Then user clicks on Newsletter menu item....................................passed
-Then user selects the yes option............................................passed
-Then user clicks continue button............................................passed
-Then Verify success message.................................................passed
-]]></system-out>
-</testcase>
+<testsuite name="Cucumber" time="0.036" tests="0" skipped="0" failures="0" errors="0">
 </testsuite>
