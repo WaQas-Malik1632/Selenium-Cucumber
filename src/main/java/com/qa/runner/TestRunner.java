@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
 				plugin  = {"pretty", "html:test-output","json:json_output/cucumber.json","junit:junitOutput_xml/cucumber.xml" }, //to generate different types of reports like
 			//	strict = true, // when step definition is missing for any step TODo implement
 				monochrome = true, //it defines console output proper readable format
-				dryRun = false
+				dryRun = false,
+                publish = true
 			//	tags= {"~@Smoke","~@Regression","~@EndToEnd"}
 
 		)

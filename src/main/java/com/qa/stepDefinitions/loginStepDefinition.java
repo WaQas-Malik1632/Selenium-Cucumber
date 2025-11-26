@@ -16,14 +16,15 @@ public class loginStepDefinition extends TestBase
     {
     }
 
-	@Given("^User Opens the application$")
+	@Given("User Opens the application")
 	public void User_Opens_the_application()
 	{
 		intialization();
 	}
 
 	@When("User redirect towards Login Page")
-	public void user_redirect_towards_login_page() throws IOException {
+	public void user_redirect_towards_login_page() throws IOException
+    {
 		login=new LoginPage(driver);
 		login.PreRequisiteMenuClickLogin();
 		Assert.assertTrue(true);
@@ -41,7 +42,7 @@ public class loginStepDefinition extends TestBase
 	// Reg Exp: We can use but its no longer usable i.e \"(.*)\" and \"([^\"]*)\"
 	// @Then("^user enters \"(.*)\" and \"(.*)\"$")
 	
-	@Then("^User logs into the application$")
+	@Then("User logs into the application")
 //	@Then("User enters {string} and {string}")
 	public void User_logs_into_the_application()
 	{
@@ -52,7 +53,7 @@ public class loginStepDefinition extends TestBase
 	        Assert.assertEquals(ExpectedTitle, ActualTitle);
 	}
 
-	@Then("^User is on Home Page$")
+	@Then("User is on Home Page")
 	public void user_is_on_Home_Page() 
 	{
 		String homePageTitle = driver.getTitle();
