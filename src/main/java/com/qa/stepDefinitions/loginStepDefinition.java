@@ -20,6 +20,7 @@ public class loginStepDefinition extends TestBase
 	public void User_Opens_the_application()
 	{
 		intialization();
+       // Headless_Intialization();
 	}
 
 	@When("User redirect towards Login Page")
