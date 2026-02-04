@@ -17,7 +17,7 @@ public class Home_NewsLetterSubs_StepDefinition extends TestBase
 	{
 		
 	}
-	 @When("Then User is on Home Page")
+	 @When("user is on Home Page")
 	    public void User_is_on_Home_Page() throws IOException
      {
 	        home=new HomePage(driver);
@@ -47,7 +47,7 @@ public class Home_NewsLetterSubs_StepDefinition extends TestBase
 	        home.submitContinue();
 	    }
 
-	    @Then("Verify success message")
+	    @Then("verify success message")
 	    public void verify_success_message() throws InterruptedException
 	    {
 	       String ActualMsg= home.verifySuccessMessage();

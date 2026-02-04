@@ -7,13 +7,13 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions
 		(
-				features = "./src/main/java/com/qa/features/Home_Newsletter.feature",
+				features = "./src/main/java/com/qa/features/Home_NewsLetterSubscribe.feature",
 				glue = {"com/qa/stepDefinitions"},
 				plugin  = {"pretty", "html:test-output","json:json_output/cucumber.json","junit:junitOutput_xml/cucumber.xml" }, //to generate different types of reports like
 			//	strict = true, // when step definition is missing for any step TODo implement
 				monochrome = true, //it defines console output proper readable format
 				dryRun = false,
-                publish = true
+                publish = false
 			//	tags= {"~@Smoke","~@Regression","~@EndToEnd"}
 
 		)

@@ -1,6 +1,0 @@
-com\qa\pages\LoginPage.class
-com\qa\stepDefinitions\loginStepDefinition.class
-com\qa\util\TestBase.class
-com\qa\runner\TestRunner.class
-com\qa\stepDefinitions\homeStepDefinitions.class
-com\qa\pages\HomePage.class
